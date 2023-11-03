@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+/* font-family: 'Edu TAS Beginner', cursive; */
+.container{
+    width: 800px;
+    margin: 40px auto;
+    background-color: beige;
+    padding: 20px;
+}
+
+.title{
+    font-family: 'Edu TAS Beginner', cursive;
+    font: 40px;
+}
+
+.para{
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.btn{
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.btn-secondary{
+    background-color: blue;
+    color: white;
+}
