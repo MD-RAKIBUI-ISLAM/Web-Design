@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+*{ 
+    box-sizing: border-box;
+}
 /* font-family: 'Edu TAS Beginner', cursive; */
 
 /* L-3.10 */
-.container{
+/* .container{
     width: 800px;
     margin: 40px auto;
     background-color: beige;
@@ -28,11 +31,11 @@
 .btn-secondary{
     background-color: blue;
     color: white;
-}
+} */
 
 /* L-4.2 */
 
-.inline{
+/* .inline{
     width: 500px;
     margin: 40px auto;
     background-color: bisque;
@@ -42,4 +45,89 @@
 .hover-hand{
     cursor: pointer;
     color: brown;
+} */
+
+/* L-6.2 Box model */
+
+/* .Box-model{
+    background-color: aqua;
+    width: 200px;
+    height: 150px;
+    margin: 40px auto;
+    outline: 10px dashed black;
+    border: 10px solid cornflowerblue;
+    padding: 50px;
+    text-align: center;
+    
+} */
+
+/* L-7.1 to 7.3 How to place two div side by side */
+/* .wrapper{
+    width: 800px;
+    margin: 0 auto;
 }
+.left{
+    background-color: aqua;
+    width: 300px;
+    padding: 10px;
+    float: left;
+}
+
+.right{
+    background-color: orchid;
+    width: 300px;
+    padding: 10px;
+    float: right;
+}
+
+.footer{
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: red;
+}
+
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+} */
+
+/* L-7.4 How to position Image inside text */
+
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.footer{
+    width: 800px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    background-color: red;
+}
+
+.wrapper p{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem ;
+}
+
+img{
+    float: left;
+    padding-right: 10px;
+    width: 300px;
+    height: 270px;
+}
+
+
